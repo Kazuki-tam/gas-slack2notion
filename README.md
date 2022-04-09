@@ -1,13 +1,13 @@
-# gas-webpack-starter
+# gas-slack2notion
 
-gas-webpack-starter is a starter kit for Google Apps Script.
+gas-slack2notion is a starter kit to post messages via Google sheets.
 
 ## Status
 
-[![Release (latest by date)](https://img.shields.io/github/v/release/Kazuki-tam/gas-webpack-starter)](https://github.com/Kazuki-tam/gas-webpack-starter/releases/tag/v0.0.1)
-[![Issues](https://img.shields.io/github/issues/Kazuki-tam/gas-webpack-starter)](https://github.com/Kazuki-tam/gas-webpack-starter/issues)
+[![Release (latest by date)](https://img.shields.io/github/v/release/Kazuki-tam/gas-slack2notion)](https://github.com/Kazuki-tam/gas-slack2notion/releases/tag/v0.0.1)
+[![Issues](https://img.shields.io/github/issues/Kazuki-tam/gas-slack2notion)](https://github.com/Kazuki-tam/gas-slack2notion/issues)
 ![Maintenance](https://img.shields.io/maintenance/yes/2022)
-![Release date](https://img.shields.io/github/release-date/Kazuki-tam/gas-webpack-starter)
+![Release date](https://img.shields.io/github/release-date/Kazuki-tam/gas-slack2notion)
 
 ## Features
 - Just deploy this project code without development
@@ -69,6 +69,16 @@ Deploy your code to the existing project.
 
 ```shell
 yarn deploy
+```
+
+### Notion settings
+Get a database's ID in Notion.
+https://developers.notion.com/docs/working-with-databases
+
+Use `Copy link to view` from the menu.
+
+```
+https://www.notion.so/{workspace_name}/{database_id}?v={view_id}
 ```
 
 ## Available Commands
