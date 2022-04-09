@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": [ "ESNext" ],
+    "strict": true
+  },
+  "ts-node": {
+    "files": true
+  }
+}
