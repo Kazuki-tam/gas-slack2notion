@@ -1,6 +1,6 @@
 # gas-slack2notion
 
-gas-slack2notion is a starter kit to post messages via Google sheets.
+gas-slack2notion is a starter kit to post messages via Google Sheets from Slack to Notion.
 
 ## Status
 
@@ -65,20 +65,21 @@ Open App script from your spreadsheet and check out a script Id at the setting p
 }
 ```
 
+### Create a .env file
+
+Create a .env at the root, and then Add your token and database id.
+
+```
+NOTION_TOKEN=<YOUR_NOTION_TOKEN>
+DATABASE_ID=<YOUR_DATABASE_ID>
+```
+
+### Upload a script project
+
 Deploy your code to the existing project.
 
 ```shell
 yarn deploy
-```
-
-### Notion settings
-Get a database's ID in Notion.
-https://developers.notion.com/docs/working-with-databases
-
-Use `Copy link to view` from the menu.
-
-```
-https://www.notion.so/{workspace_name}/{database_id}?v={view_id}
 ```
 
 ## Available Commands
