@@ -2,6 +2,10 @@
 
 gas-slack2notion is a starter kit to post messages via Google Sheets from Slack to Notion.
 
+Check out this article when you use this template.
+
+[👉 How to build a knowledge system with Slack and Notion](https://dev.to/tim_yone/how-to-build-a-knowledge-system-with-slack-and-notion-52dc)
+
 ## Status
 
 [![Release (latest by date)](https://img.shields.io/github/v/release/Kazuki-tam/gas-slack2notion)](https://github.com/Kazuki-tam/gas-slack2notion/releases/tag/v0.0.1)
