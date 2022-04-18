@@ -1,6 +1,7 @@
 import { createItem } from "./helper/createItem";
 import { postNotion } from "./helper/postNotion";
 import { createTagsArray } from "./helper/createTagsArray";
+import isURL from "validator/lib/isURL";
 
 /**
  * main function
@@ -11,7 +12,8 @@ function main() {
   if (latestEntryRow > 1) {
     const question = mySheet.getRange(latestEntryRow, 1).getValue();
     const answer = mySheet.getRange(latestEntryRow, 2).getValue();
-    const url = mySheet.getRange(latestEntryRow, 3).getValue() || null;
+    const urlString = mySheet.getRange(latestEntryRow, 3).getValue();
+    const url = isURL(urlString) ? urlString : null;
     const tags = createTagsArray(
       mySheet.getRange(latestEntryRow, 4).getValue()
     );
