@@ -1,6 +1,6 @@
 {
-  "name": "gas-spreadsheet-mail",
-  "version": "0.0.1",
+  "name": "gas-slack2notion",
+  "version": "0.0.2",
   "description": "Starter kit for Google Apps Script.",
   "author": "Kazuki Yonemoto (https://dev.to/tim_yone)",
   "license": "MIT",
