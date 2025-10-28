@@ -5,7 +5,7 @@
   "author": "Kazuki Yonemoto (https://dev.to/tim_yone)",
   "license": "MIT",
   "dependencies": {
-    "validator": "^13.7.0"
+    "validator": "^13.15.20"
   },
   "devDependencies": {
     "@types/cpx": "^1.5.2",
